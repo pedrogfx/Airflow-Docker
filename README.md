@@ -11,9 +11,7 @@ https://docs.microsoft.com/en-us/windows/wsl/install
 ```
 cd airflow-docker/
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/stable/docker-compose.yaml'
-```
-
-```
 mkdir ./dags ./plugins ./logs
 echo -e "AIRFLOW_UID=$(id -u)" > .env
+docker-compose up
 ```
