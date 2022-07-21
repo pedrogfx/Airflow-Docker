@@ -1,0 +1,12 @@
+- SCHEMA_STR: ''
+  EH_SASL: ''
+  TABLE_ID: 'person'
+  PROJECT_ID: ''
+  BUCKET_ID: ''
+  RAW_DATASET: ''
+  VMODE: 'overwrite'
+  VGROUP_ID: 'person'
+  TOPIC: 'person.topic'
+  SOURCE_FORMAT: "PARQUET"
+  FLG_FOTO: "0"
+  ACTIVE: "1"
